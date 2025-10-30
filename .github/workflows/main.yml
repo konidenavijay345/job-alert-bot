@@ -32,4 +32,4 @@ jobs:
           GSHEET_ID: ${{ secrets.GSHEET_ID }}
           MIN_RATING: "3"
         run: |
-          main.py
+          python main.py
